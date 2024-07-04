@@ -14,7 +14,7 @@ const QuoteTab = () => {
       setLoading(true);
       setError(null);
       try {
-        const response = await axios.get('http://localhost:3000/api/quote/quote',{
+        const response = await axios.get('https://cleanease-be.onrender.com/api/quote/quote',{
           headers: {
               Authorization: `Bearer ${user.token}`, // Include the token in the request headers
           },

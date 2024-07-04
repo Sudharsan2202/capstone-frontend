@@ -32,7 +32,7 @@ const Contact = () => {
   };
 
   const handleSubmit = (values, { setSubmitting, resetForm, setStatus }) => {
-    axios.post('http://localhost:3000/api/usersdata/userdata', values)
+    axios.post('https://cleanease-be.onrender.com/api/usersdata/userdata', values)
       .then(response => {
         console.log('Data submitted successfully:', response.data);
         resetForm();

@@ -41,7 +41,7 @@ const AddServices = () => {
         description,
       };
 
-      await axios.post('http://localhost:3000/api/cleaningservices/addCleaningService', serviceData,{
+      await axios.post('https://cleanease-be.onrender.com/api/cleaningservices/addCleaningService', serviceData,{
         headers: {
             Authorization: `Bearer ${user.token}`, // Include the token in the request headers
         },

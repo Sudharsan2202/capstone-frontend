@@ -32,7 +32,7 @@ const RatingAndReview = () => {
 
     const fetchReviews = async () => {
         try {
-            const response = await axios.get('http://localhost:3000/api/rating/all', {
+            const response = await axios.get('https://cleanease-be.onrender.com/api/rating/all', {
                 headers: {
                     Authorization: `Bearer ${user.token}`, // Include the token in the request headers
                 },
@@ -65,7 +65,7 @@ const RatingAndReview = () => {
         };
 
         // Submit the form data to the backend API endpoint using Axios
-        axios.post('http://localhost:3000/api/rating/rating', requestData, {
+        axios.post('https://cleanease-be.onrender.com/rating/rating', requestData, {
             headers: {
                 Authorization: `Bearer ${user.token}`, // Include the token in the request headers
             },
