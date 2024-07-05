@@ -65,7 +65,7 @@ const RatingAndReview = () => {
         };
 
         // Submit the form data to the backend API endpoint using Axios
-        axios.post('https://cleanease-be.onrender.com/rating/rating', requestData, {
+        axios.post('https://cleanease-be.onrender.com/api/rating/rating', requestData, {
             headers: {
                 Authorization: `Bearer ${user.token}`, // Include the token in the request headers
             },
