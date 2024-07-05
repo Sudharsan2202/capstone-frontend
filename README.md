@@ -1,8 +1,9 @@
 Admin Functionalities
 
-Admin credentials
-usernmae:sudhan
-email : sudhan@gmail.com
+
+Admin credentials                                                                                                                                                                                                                      
+usernmae:sudhan                                                                                                                                                                                                    
+email : sudhan@gmail.com                                                                                                                                                                                   
 pass : 123456
 
 
