@@ -1,6 +1,3 @@
-# capstone-frontend
-
-
 Admin Functionalities
 Admin credentials
 usernmae:sudhan
