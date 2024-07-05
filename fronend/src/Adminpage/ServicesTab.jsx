@@ -22,7 +22,7 @@ const ServicesTab = () => {
       setLoading(true);
       setError(null);
       try {
-        const response = await axios.get('https://cleanease-be.onrender.com/cleaningservices/getAllCleaningServices/',{
+        const response = await axios.get('https://cleanease-be.onrender.com/api/cleaningservices/getAllCleaningServices/',{
           headers: {
               Authorization: `Bearer ${user.token}`, // Include the token in the request headers
           },
